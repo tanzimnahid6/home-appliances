@@ -1,11 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+
 const Home = () => {
   return (
-    <div >
+    <div>
       <div className="flex flex-col h-[calc(100vh-50px)] items-center bg-cyan-50">
-        <h1 className="text-4xl md:text-6xl text-center font-bold text-cyan-500 mt-28">
+        <h1 className="text-4xl md:text-6xl text-center  mt-28  animate-text bg-gradient-to-r from-cyan-500 via-purple-500 to-cyan-400 bg-clip-text text-transparent font-black">
           Welcome To HeroGadget
         </h1>
         <p className="text-center md:text-xl my-8">
@@ -31,6 +32,7 @@ const Home = () => {
           />
         </div>
       </div>
+      
     </div>
   );
 };
